@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 1px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 300;
+}
+
+.card {
+  display: flex;
+  width: 1440rem;
+  height: 720rem;
+  color: white;
+  border-radius: 14rem;
+  overflow: hidden;
+}
+.card__first {
+  background-color: hsl(31, 77%, 52%);
+}
+.card__first-btn-text {
+  color: hsl(31, 77%, 52%);
+}
+.card__first-btn-text:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+.card__second {
+  background-color: hsl(184, 100%, 22%);
+}
+.card__second-btn-text {
+  color: hsl(184, 100%, 22%);
+}
+.card__second-btn-text:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+.card__third {
+  background-color: hsl(179, 100%, 13%);
+}
+.card__third-btn-text {
+  color: hsl(179, 100%, 13%);
+}
+.card__third-btn-text:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+.card__first, .card__second, .card__third {
+  width: 33.3%;
+  padding-left: 77rem;
+  padding-right: 45rem;
+}
+.card__first-icon, .card__second-icon, .card__third-icon {
+  padding-top: 90rem;
+}
+.card__first-icon img, .card__second-icon img, .card__third-icon img {
+  padding-left: 12rem;
+  scale: 1.5;
+}
+.card__first-text-headline, .card__second-text-headline, .card__third-text-headline {
+  font-size: 56px;
+  padding-top: 56rem;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+}
+.card__first-text-info, .card__second-text-info, .card__third-text-info {
+  padding-top: 58rem;
+  font-size: 24px;
+  line-height: 35rem;
+  letter-spacing: 1rem;
+}
+.card__first-btn, .card__second-btn, .card__third-btn {
+  padding-top: 90rem;
+}
+.card__first-btn-text, .card__second-btn-text, .card__third-btn-text {
+  width: 240rem;
+  height: 72rem;
+  font-size: 24px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  background-color: white;
+  border-radius: 50em;
+  border: none;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+.card__first-btn-text:hover, .card__second-btn-text:hover, .card__third-btn-text:hover {
+  border: 3px solid white;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  body {
+    height: auto;
+  }
+  .card {
+    flex-direction: column;
+    width: auto;
+    border-radius: 0;
+    overflow: visible;
+  }
+  .card__first, .card__second, .card__third {
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    padding-left: 16%;
+    padding-right: 16%;
+  }
+  .card__first-icon, .card__second-icon, .card__third-icon {
+    padding-top: 60rem;
+  }
+  .card__first-icon img, .card__second-icon img, .card__third-icon img {
+    padding-left: 0;
+    scale: 1;
+  }
+  .card__first-text-headline, .card__second-text-headline, .card__third-text-headline {
+    font-size: 42px;
+  }
+  .card__first-text-info, .card__second-text-info, .card__third-text-info {
+    padding-top: 30rem;
+    font-size: 15px;
+    line-height: 30rem;
+  }
+  .card__first-btn, .card__second-btn, .card__third-btn {
+    padding-top: 40rem;
+    padding-bottom: 50rem;
+  }
+  .card__first-btn-text, .card__second-btn-text, .card__third-btn-text {
+    width: 160rem;
+    height: 48rem;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=main.css.map */
