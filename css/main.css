@@ -12,7 +12,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
   font-family: "Lexend Deca", sans-serif;
   font-weight: 300;
 }
@@ -97,19 +98,14 @@ body {
 }
 
 @media (max-width: 576px) {
-  body {
-    height: auto;
-  }
   .card {
     flex-direction: column;
-    width: auto;
-    border-radius: 0;
-    overflow: visible;
+    width: 90vw;
+    height: auto;
+    margin: 20rem 0 20rem 0;
   }
   .card__first, .card__second, .card__third {
-    flex-direction: column;
-    width: 100vw;
-    height: 100%;
+    width: 90vw;
     padding-left: 16%;
     padding-right: 16%;
   }
@@ -125,7 +121,7 @@ body {
   }
   .card__first-text-info, .card__second-text-info, .card__third-text-info {
     padding-top: 30rem;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 30rem;
   }
   .card__first-btn, .card__second-btn, .card__third-btn {
