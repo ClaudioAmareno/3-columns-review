@@ -28,28 +28,28 @@ body {
 .card--yellow {
   background-color: hsl(31, 77%, 52%);
 }
-.card--yellow-btn-text {
+.card__first-btn-text {
   color: hsl(31, 77%, 52%);
 }
-.card--yellow-btn-text:hover {
+.card__first-btn-text:hover {
   background-color: hsl(31, 77%, 52%);
 }
 .card--blue {
   background-color: hsl(184, 100%, 22%);
 }
-.card--blue-btn-text {
+.card__second-btn-text {
   color: hsl(184, 100%, 22%);
 }
-.card--blue-btn-text:hover {
+.card__second-btn-text:hover {
   background-color: hsl(184, 100%, 22%);
 }
 .card--green {
   background-color: hsl(179, 100%, 13%);
 }
-.card--green-btn-text {
+.card__third-btn-text {
   color: hsl(179, 100%, 13%);
 }
-.card--green-btn-text:hover {
+.card__third-btn-text:hover {
   background-color: hsl(179, 100%, 13%);
 }
 .card__first, .card__second, .card__third {
@@ -87,7 +87,7 @@ body {
   cursor: pointer;
 }
 .card__first-btn-text:hover, .card__second-btn-text:hover, .card__third-btn-text:hover {
-  border: 3px solid hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 100%);
   color: hsl(0, 0%, 100%);
 }
 
